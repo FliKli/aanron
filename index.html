@@ -19,22 +19,35 @@ bode{
 #header{
 position:relative;
     height: 100px;
-    width: 700px;
+    width: 694px;
     background-color: #00eeff7c;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    border: 3px solid rgb(0, 0, 0);
 }
+
 img{
 float: left;
-    margin: -40px 0 0 0;}
+border-radius: 20px;
+}
 h1{
     margin: 0 0 10px 40px;
     color: #000000;
 }
+
+.namer{
+    position:absolute;
+    top: -10px;
+    left: 110px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
 .nomer{
     position:absolute;
-    top: 60px;
+    top: 50px;
     left: 500px;
     font-size: 15px;
     font-style: italic;
@@ -44,12 +57,13 @@ h1{
 
 #sidebar{
     background-color: #ffe60094;
-    width: 192px;
-    height: 710px;
+    width: 189px;
+    height: 708px;
     float: right;
     margin: -110px 0 0 0;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0) 0px 1px 3px;
+    border: 3px solid rgb(0, 0, 0);
 }
 .marcer{
     float: left;
@@ -58,12 +72,13 @@ h1{
 
 #content{
     margin-bottom: 5px; 
-  width: 200px; 
-  height: 600px; 
-  margin: -10px 0 0 0;
-  background: #93fa7f9a; 
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0) 0px 1px 3px;
+    width: 200px; 
+    height: 600px; 
+    margin: -10px 0 0 0;
+    background: #93fa7f9a; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0) 0px 1px 3px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .left{
@@ -77,13 +92,17 @@ h1{
 }
 
 #footer{
+position: absolute;
+    z-index: 9999999;
+    top: 718px;
     height: 120px;
     width: 493px;
-    margin: -120px 0 0 208px;
-    background-color: #f8898991;
+    margin: -120px 0 0 209px;
+    background-color: #ffa0a0;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0) 0px 1px 3px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .clear{
@@ -105,56 +124,68 @@ h1{
     margin: 20px 0 0 60px;
 }
 
+#str{
+position:absolute;
+    top: 118px;
+    left: 559px;
+    height: 600px;
+    width: 493px;
+    background-color: #8400ff7c;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+button {
+  background-color: rgb(166, 255, 0);
+  width: 170px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 3px solid rgb(0, 204, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
 </style>
 </head>
 <body>
-    <div id="wrapper"> <!--Оболочка страницы-->
-  <!--Шапка сайта-->
+    <div id="wrapper">
       <div id="header">
-        <h1>TBIALOW</h1>
+        <h1></h1>
+          <p class="namer">TBIALOW</p>
           <p class="nomer"> The bot is a lover of walking </p>
-  <!--Фоновая картинка в шапке сайта-->
-        <img src="msg-1002087550874-24.jpg" alt= ""width="100" height="100">
+        <img src="msg-1002087550874-24.jpg" 
+            width="90" height="90" style="margin-left: 15px; margin-top: 5px;">
       </div>
-  <!--Сайдбар-->
+
       <div id="sidebar">
-  <!--меню-->
-        <h3>На нашем сайте</h3>
-  <!--Картинки маркеров меню (галочки)-->
-          <p><img class="marcer" src=>Наши сотрудники</p>
-          <p><img class="marcer" src=>Наша техника</p>
-          <p><img class="marcer" src="http://trueimages.ru/img/99/91/dea39f15.png" width="10" height="10">Прайс</p>
-  <!--Прямая синяя линия-->
+        <h3 style="margin-left: 15px; margin-top: 10px;">Что хотите узнать?</h3>
+            <h3 style="margin-left: 10px; margin-top: -10px;">cписок где можно погулять:</h3>
+        <button type="button" name="..." style="margin-left: 10px; margin-top: -10px;">Страна</button>
+        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Город</button>
+        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Парк</button>
             <hr width="50" color="#037FFC" size="5">
-  <!--Общая информация в сайдбаре-->
-        <h3>Другая информация</h3>
+        <h3 style="margin-left: 10px">другое:</h3>
+        <button type="button" name="..." style="margin-left: 10px; margin-top: -10px;">**</button>
+        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Поговорить</button>
+        <hr width="50" color="#037FFC" size="5">
       </div>
-  <!--Основной контент (статья)-->
+
       <div id="content">
-  <!--Картинка слева-->
-        <img class="left" src="http://trueimages.ru/img/81/90/b1718f15.png">
-  <!--Заголовок статьи-->
-          <h3>Наша работа</h3>
-  <!--Текст статьи-->
-  <p>Здравствуйте уважаемые будущие веб-мастера!</p>
-  <p></p>
-  <p></p>
-  <p>А мне, учитывая</p>
-  <!--Картинка справа-->
-        <img class="right" src=>
-  
-  <p>Здесь
-  «разжеваны» </p>
-  <p>Уверен</p>
+          <h3 style="margin-left: 65px;">Список:</h3>
+          <img src="">
+          <hr width="50" color="#037FFC" size="5">
       </div>
-  <!--Запрет наплывания-->
+
     <div class="clear"></div>
-  <!--Подвал-->
-      <div id="footer">
-        <p class="fon"><strong>Телефон:<br>/// </strong> </p>
-        <p class="fax"><strong>Факс:<br>/// </strong></p>
-        <p class="mail"><strong>E-mail:<br> ///</strong></p>
-  
+
+    <div id="str"></div>
+
+        <div id="footer">
+        <p class="fon"><strong>Т<br>/// </strong> </p>
+        <p class="fax"><strong>Ф:<br>/// </strong></p>
+        <p class="mail"><strong>E<br> ///</strong></p>
       </div>
     </div>
   </body>
