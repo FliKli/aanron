@@ -9,37 +9,35 @@
 bode{
     background: #ffffff;;
 }
-
 #wrapper{
-    width: 900px;
+    width: 1000px;
+    height: 750px;
     margin: 0 auto;
-    background: #ffffff
+    background: #f57676
 }
-
 #header{
-position:relative;
-    height: 100px;
-    width: 694px;
+    position:relative;
     background-color: #00eeff7c;
+    height: 100px;
+    width: 750px;
     margin-bottom: 10px;
-    border-radius: 15px;
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
-    border: 3px solid rgb(0, 0, 0);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
 }
-
 img{
 float: left;
 border-radius: 20px;
+border: 3px solid rgb(189, 46, 233);
 }
 h1{
     margin: 0 0 10px 40px;
     color: #000000;
 }
-
 .namer{
     position:absolute;
     top: -10px;
-    left: 110px;
+    left: 120px;
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
@@ -47,38 +45,31 @@ h1{
 }
 .nomer{
     position:absolute;
-    top: 50px;
-    left: 500px;
+    top: 60px;
+    left: 550px;
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
     color: #000000;
 }
-
 #sidebar{
     background-color: #ffe60094;
-    width: 189px;
-    height: 708px;
+    width: 238px;
+    height: 746px;
+    margin: -114px 0 0 0;
     float: right;
-    margin: -110px 0 0 0;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0) 0px 1px 3px;
-    border: 3px solid rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
 }
-.marcer{
-    float: left;
-    margin: 5px 5px 0 0;
-}
-
-#content{
-    margin-bottom: 5px; 
+#content{ 
     width: 200px; 
-    height: 600px; 
-    margin: -10px 0 0 0;
+    height: 638px; 
+    margin: -6px 0 0 0;
     background: #93fa7f9a; 
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0) 0px 1px 3px;
-    border: 3px solid rgb(0, 0, 0);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .left{
@@ -101,8 +92,7 @@ position: absolute;
     background-color: #ffa0a0;
     margin-bottom: 10px;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0) 0px 1px 3px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .clear{
@@ -137,12 +127,12 @@ position:absolute;
 }
 
 button {
-  background-color: rgb(166, 255, 0);
-  width: 170px;
+  background-color: rgb(0, 255, 115);
+  width: 150px;
   font-size: 15px;
   padding: 5px;
   border-radius: 15px;
-  border: 3px solid rgb(0, 204, 255);
+  border: 2px solid rgb(47, 0, 255);
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -154,33 +144,51 @@ button {
       <div id="header">
         <h1></h1>
           <p class="namer">TBIALOW</p>
-          <p class="nomer"> The bot is a lover of walking </p>
-        <img src="msg-1002087550874-24.jpg" 
-            width="90" height="90" style="margin-left: 15px; margin-top: 5px;">
-      </div>
+          <p class="nomer"> The bot is a lover of walking... </p>
+          <img src="msg-1002087550874-24.jpg" 
+            width="90" height="90" style="margin-left: 15px; margin-top: -8px;">
+        </div>
 
-      <div id="sidebar">
+        <div id="sidebar">
         <h3 style="margin-left: 15px; margin-top: 10px;">Что хотите узнать?</h3>
-            <h3 style="margin-left: 10px; margin-top: -10px;">cписок где можно погулять:</h3>
-        <button type="button" name="..." style="margin-left: 10px; margin-top: -10px;">Страна</button>
-        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Город</button>
-        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Парк</button>
-            <hr width="50" color="#037FFC" size="5">
+        <h3 style="margin-left: 10px; margin-top: -10px;">cписок где можно погулять:</h3>
+
+        <button type="button" name="..." style="margin-left: 5px; margin-top: -20px;">Страна</button>
+        <img src="Earth-Drawing-PNG-Free-File-Download.png"
+            width="30" height="30" style="margin-left: 15px; margin-top: -8px;">
+
+        <button type="button" name="..." style="margin-left: 5px; margin-top: 15px;">Город</button>
+        <img src="cityskape-1024.webp"
+            width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
+
+        <button type="button" name="..." style="margin-left: 5px; margin-top: 15px;">Парк</button>
+        <img src="png-clipart-state-park-recreation-national-park-park.png"
+            width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
+
+        <hr width="60" color="green" size="5">
+
         <h3 style="margin-left: 10px">другое:</h3>
-        <button type="button" name="..." style="margin-left: 10px; margin-top: -10px;">**</button>
-        <button type="button" name="..." style="margin-left: 10px; margin-top: 5px;">Поговорить</button>
-        <hr width="50" color="#037FFC" size="5">
-      </div>
 
-      <div id="content">
+        <button type="button" name="..." style="margin-left: 5px; margin-top: -20px;">**</button>
+        <img src=""
+            width="30" height="30" style="margin-left: 15px; margin-top: -10px;">
+
+        <button type="button" name="..." style="margin-left: 5px; margin-top: 15px;">Поговорить</button>
+        <img src="media_multimedia_audio_video_music_-_2-1024.webp"
+            width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
+
+        <hr width="60" color="green" size="5">
+        </div>
+
+        <div id="content">
           <h3 style="margin-left: 65px;">Список:</h3>
-          <img src="">
-          <hr width="50" color="#037FFC" size="5">
-      </div>
+          <img src=""
+            width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
+        </div>
 
-    <div class="clear"></div>
+        <div class="clear"></div>
 
-    <div id="str"></div>
+        <div id="str"></div>
 
         <div id="footer">
         <p class="fon"><strong>Т<br>/// </strong> </p>
