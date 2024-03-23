@@ -30,9 +30,9 @@ bode{
     width: 238px;
     height: 746px;
     margin: -114px 0 0 0;
-    float: right;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    float: right;
     border: 2px solid rgb(0, 0, 0);
 }
 #content{ 
@@ -66,10 +66,6 @@ bode{
     border-radius: 15px;
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
 }
-h1{
-    margin: 0 0 10px 40px;
-    color: #000000;
-}
 .namer{
     position:absolute;
     top: -10px;
@@ -81,7 +77,7 @@ h1{
 }
 .nomer{
     position:absolute;
-    top: 60px;
+    top: 53px;
     left: 550px;
     font-size: 15px;
     font-style: italic;
@@ -111,6 +107,10 @@ h1{
     float: left;
     margin: 20px 0 0 60px;
 }
+.borders{
+    border: 3px solid;
+    border-image: linear-gradient(90deg,black, red, blue,black) 20;
+}
 button{
   background-color: rgb(0, 255, 115);
   width: 150px;
@@ -126,6 +126,10 @@ float: left;
 border-radius: 20px;
 border: 3px solid rgb(227, 46, 233);
 }
+h1{
+    margin: 0 0 10px 40px;
+    color: #000000;
+}
 
 </style>
 </head>
@@ -135,8 +139,9 @@ border: 3px solid rgb(227, 46, 233);
         <h1></h1>
           <p class="namer">TBIALOW</p>
           <p class="nomer"> The bot is a lover of walking... </p>
+          <p class="borders" style="margin-left: -1px; margin-top: 85px;"></p>
           <img src="imges/msg-1002087550874-24.jpg" 
-            width="90" height="90" style="margin-left: 15px; margin-top: -8px;">
+            width="90" height="90" style="margin-left: 15px; margin-top: -105px;">
         </div>
 
         <div id="sidebar">
@@ -174,9 +179,6 @@ border: 3px solid rgb(227, 46, 233);
 
         <div id="str"></div>
 
-        <input type="checkbox" />
-        <div></div>
-        
         <div class="clear"></div>
         
         <div id="footer">
