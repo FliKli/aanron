@@ -1,2 +1,125 @@
-
+bode{
+    background: #ffffff;;
+}
+#wrapper{
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+    background: #ffffff
+}
+#header{
+    position:relative;
+    background-color: #00eeff7c;
+    height: 100px;
+    width: 750px;
+    margin-bottom: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#sidebar{
+    background-color: #ffe60094;
+    width: 238px;
+    height: 746px;
+    margin: -114px 0 0 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: right;
+    border: 2px solid rgb(0, 0, 0);
+}
+#content{ 
+    background: #93fa7f9a;
+    width: 200px; 
+    height: 638px; 
+    margin: -6px 0 0 0; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#footer{
+    position: absolute;
+    background-color: #ffa0a0;
+    z-index: 9999999;
+    height: 120px;
+    width: 540px;
+    margin: -776px 0 0 209px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#str{
+    position:relative;
+    background-color: #8400ff33;
+    top: -642px;
+    left: 209px;
+    height: 642px;
+    width: 544px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.namer{
+    position:absolute;
+    top: -10px;
+    left: 120px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
+.nomer{
+    position:absolute;
+    top: 53px;
+    left: 550px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
+.left{
+    float: left;
+    margin: 30px 7px 7px 7px;
+}
+.right{
+    float: right;
+    margin: 7px 0 7px 7px;  
+}
+.clear{
+    clear:both;
+}
+.fon{
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.fax{
+    float: left;
+    margin: 20px 0 0 60px;
+}
+.mail{ 
+    float: left;
+    margin: 20px 0 0 60px;
+}
+.borders{
+    border: 3px solid;
+    border-image: linear-gradient(90deg,black, red, blue,black) 20;
+}
+button{
+  background-color: rgb(0, 255, 115);
+  width: 150px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid rgb(47, 0, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+img{
+float: left;
+border-radius: 20px;
+border: 3px solid rgb(227, 46, 233);
+}
+h1{
+    margin: 0 0 10px 40px;
+    color: #000000;
+}
  
