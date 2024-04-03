@@ -124,15 +124,15 @@
         color: #000000;
     }
 }
-@media (max-width: 480px){
+@media ((min-width: 320px) and (max-width:1080px)){
     bode{
         background: #ffffff;;
     }
     #wrapper{
-        width: 100px;
-        height: 75px;
-        margin: 0 auto;
-        background: #ffffff
+        width: 0 auto;
+        height: 720px;
+        margin: 2px;
+        background: #f77c7c
     }
     #header{
         position:relative;
