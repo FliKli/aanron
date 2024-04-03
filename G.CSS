@@ -126,13 +126,13 @@
 }
 @media ((min-width: 320px) and (max-width:1080px)){
     bode{
-        background: #ffffff;;
+        background: #ff9898;;
     }
     #wrapper{
         width: 0 auto;
         height: 720px;
         margin: 2px;
-        background: #f77c7c
+        background: #ffa7a7
     }
     #header{
         position:relative;
@@ -144,7 +144,7 @@
         border-bottom-right-radius: 5px;
         border: 2px solid rgb(0, 0, 0);
     }
-    #sidebar{
+    /*#sidebar{
         background-color: #ffe60094;
         width: 23px;
         height: 74px;
@@ -248,5 +248,5 @@
     h1{
         margin: 0 0 1px 4px;
         color: #000000;
-    }
+    }*/
 }   
