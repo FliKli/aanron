@@ -144,7 +144,7 @@
         border-bottom-right-radius: 5px;
         border: 2px solid rgb(0, 0, 0);
     }
-    /*#sidebar{
+    #sidebar{
         background-color: #ffe60094;
         width: 23px;
         height: 74px;
@@ -154,7 +154,7 @@
         float: right;
         border: 2px solid rgb(0, 0, 0);
     }
-    #content{ 
+    /*#content{ 
         background: #93fa7f9a;
         width: 20px; 
         height: 63px; 
