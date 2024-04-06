@@ -105,25 +105,40 @@
         border-image: linear-gradient(90deg,black, red, blue,black) 20;
     }
     button{
-    background-color: rgb(0, 255, 115);
-    width: 150px;
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 15px;
-    border: 2px solid rgb(47, 0, 255);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+        color: #000000;
+        background-color: rgb(0, 255, 115);
+        width: 150px;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        border: 2px solid rgb(47, 0, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    button:hover{
+        color: fuchsia;
+        background-color: rgb(0, 255, 115);
+        width: 150px;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        border: 2px solid rgb(183, 0, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
     }
     img{
-    float: left;
-    border-radius: 20px;
-    border: 3px solid rgb(227, 46, 233);
+        float: left;
+        border-radius: 20px;
+        border: 3px solid rgb(227, 46, 233);
     }
     h1{
         margin: 0 0 10px 40px;
         color: #000000;
     }
 }
+
+
+
 @media ((min-width: 320px) and (max-width:1080px)){
     bode{
         background: #ff9898;;
