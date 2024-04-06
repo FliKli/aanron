@@ -111,18 +111,18 @@
         font-size: 15px;
         padding: 5px;
         border-radius: 15px;
-        border: 2px solid rgb(47, 0, 255);
+        border: 2px solid rgb(25, 0, 255);
         color: rgb(0, 0, 0);
         cursor: pointer;
     }
     button:hover{
-        color: fuchsia;
-        background-color: rgb(0, 255, 115);
+        color: #00f7ff;
+        background-color: rgb(0, 187, 84);
         width: 150px;
         font-size: 15px;
         padding: 5px;
         border-radius: 15px;
-        border: 2px solid rgb(183, 0, 255);
+        border: 2px solid rgb(255, 0, 191);
         color: rgb(0, 0, 0);
         cursor: pointer;
     }
