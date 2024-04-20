@@ -5,11 +5,12 @@ var btn = document.getElementById("grop");
  
 btn.onclick = function() { 
     console.log('hi') 
+    
+const contentWrapper = document.getElementById('content-wraper') 
     if (contentWrapper.style.display === 'none') {
         contentWrapper.style.display = 'block'
         const arrGames = ['test' , 'zdfklnmadbvgjkzdfnjkbv', 'test3', 'hjjknjknnj'] 
 
-const contentWrapper = document.getElementById('content-wraper') 
 
 arrGames.forEach((elem) => { 
     console.log(elem) 
@@ -20,12 +21,12 @@ arrGames.forEach((elem) => {
 })
 
     } else {
-        
-        contentWrapper.style.display = 'none'
-    }
-    
 
-     
-  
-} 
- 
+        const frogs = document.getElementsByClassName('frog') 
+        
+        console.log(frogs)
+        contentWrapper.style.display = 'none'
+
+    }
+   
+}

@@ -98,14 +98,6 @@
         float: left;
         margin: 20px 0 0 20px;
     }
-    .fax{
-        float: left;
-        margin: 20px 0 0 60px;
-    }
-    .mail{ 
-        float: left;
-        margin: 20px 0 0 60px;
-    }
     .borders{
         border: 3px solid;
         border-image: linear-gradient(90deg,black, red, blue,black) 20;
@@ -113,7 +105,7 @@
     .frog{
         height: 100px;
         width: 100px;
-        background-color: chocolate;
+        background-color: rgb(255, 255, 255);
     }
     button{
         color: #000000;
