@@ -1,6 +1,3 @@
-
-
-
 var btn = document.getElementById("grop"); 
  
 btn.onclick = function() { 
@@ -9,7 +6,7 @@ btn.onclick = function() {
 const contentWrapper = document.getElementById('content-wraper') 
     if (contentWrapper.style.display === 'none') {
         contentWrapper.style.display = 'block'
-        const arrGames = ['test' , 'zdfklnmadbvgjkzdfnjkbv', 'test3', 'hjjknjknnj'] 
+        const arrGames = ['../|_/|', '/0w0|', '-???-'] 
 
 
 arrGames.forEach((elem) => { 
