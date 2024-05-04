@@ -1,39 +1,49 @@
-.d6 {background: #B46381;}
-.d6 form {
-  height: 42px;
+.city_search {background: #fa9dbf00;}
+.city_search form {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 32px;
+  width: 170px;
 }
-.d6 input {
+.city_search input {
+  all: unset;
+  font: 16px system-ui;
   height: 100%;
-  width: 0;
-  padding: 0 42px 0 15px;
+  width: 100%;
   border: none;
   border-bottom: 2px solid transparent;
   outline: none;
   background: transparent;
   transition: .4s cubic-bezier(0, 0.8, 0, 1);
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   z-index: 2;
 }
-.d6 input:focus {
-  width: 300px;
+.city_search input:focus {
+  width: 100%;
   z-index: 1;
-  border-bottom: 2px solid #F9F0DA;
+  border-bottom: 2px solid #6b6b6b;
 }
-.d6 button_search {
-  background: #683B4D;
-  border: none;
-  height: 42px;
-  width: 42px;
-  position: absolute;
+.city_search button{
+  background: #6b6b6b00;
+  height: 30px;
+  width: 30px;
+  position:relative;
   top: 0;
   right: 0;
+  all: unset;
   cursor: pointer;
 }
-.d6 button_search:before {
+.city_search button:before {
   content: "\f002";
   font-family: FontAwesome;
   font-size: 16px;
-  color: #F9F0DA;
+  color: #000000;
+}
+::placeholder {
+  color: #424242;
+  opacity: 0.7; 
 }

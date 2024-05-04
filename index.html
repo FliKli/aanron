@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <div id="wrapper">
-      <div id="header">
+    <div class="text">
+      <div id="wrapper">
+        <div id="header">
           <p class="namer">TBIALOW</p>
           <p class="nomer"> The bot is a lover of walking... </p>
           <p class="borders" style="margin-left: -1px; margin-top: 85px;"></p>
@@ -20,13 +21,13 @@
 
         <div id="sidebar">
         <h3 style="margin-left: 15px; margin-top: 10px;">Что хотите узнать?</h3>
-        <h3 style="margin-left: 10px; margin-top: -10px;">cписок где можно погулять:</h3>
+        <h3 style="margin-left: 10px; margin-top: -10px;">Развлечение:</h3>
 
-        <button class="grop" id="button" style="margin-left: 5px; margin-top: -20px;">Поиск город</button>
+        <button id="grop" class="btn" style="margin-left: 5px; margin-top: -20px;">Поиск город</button>
         <img src="imges/cityskape-1024.webp"
             width="30" height="30" style="margin-left: 15px; margin-top: -8px;">
 
-        <button class="" id="button" style="margin-left: 5px; margin-top: 15px;">Парк</button>
+        <button class="btn" style="margin-left: 5px; margin-top: 15px;">Парк</button>
         <img src="imges/png-clipart-state-park-recreation-national-park-park.png"
             width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
 
@@ -34,11 +35,11 @@
 
         <h3 style="margin-left: 10px">другое:</h3>
 
-        <button id="button" style="margin-left: 5px; margin-top: -20px;">**</button>
+        <button class="btn" style="margin-left: 5px; margin-top: -20px;">**</button>
         <img src=""
             width="30" height="30" style="margin-left: 15px; margin-top: -10px;">
 
-        <button id="button" style="margin-left: 5px; margin-top: 15px;">Поговорить</button>
+        <button class="btn" style="margin-left: 5px; margin-top: 15px;">Поговорить</button>
         <img src="imges/media_multimedia_audio_video_music_-_2-1024.webp"
             width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
 
@@ -48,14 +49,19 @@
         <div id="content">
           <h3 style="margin-left: 65px;">Список:</h3>
           <img src="imges/"
-            width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
-          <div id="content-wraper" style="max-height: 400px; max-lines: 50px; overflow: scroll;">ВЫБИРАЙ</div>
-          <div class="d6" id="search">
-            <form>
-              <input type="text" placeholder="Искать здесь...">
+            width="30" height="30" style="margin-left: 15px; margin-top: -45px;">
+          <div id="content-wraper" style="max-height: 400px; max-lines: 50px; overflow: scroll;">
+          <div class="city_search">
+            <form id="c_form" role="search">
+              <input type="search" id="c_query" name="q" 
+              placeholder="Поиск..."
+              aria-label="Search through site content">
+              <p id="nameList"></p>
+              <script type="text/javascript" src="inputev.js"></script>
               <button type="submit"></button>
             </form>
           </div>
+         </div>
         </div>
 
         <div id="str"></div>
@@ -65,9 +71,6 @@
         <div id="footer">
         <p class="fon"><strong>Т<br>/// </strong> </p>
         </div>
-
-
-
 
       </div>  
     </div>
