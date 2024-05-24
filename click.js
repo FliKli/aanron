@@ -17,7 +17,9 @@ arrGames.forEach((elem) => {
     contentWrapper.appendChild(elemNew) 
 })
 
-    } else {
+    } 
+    
+    else {
 
         const frogs = document.getElementsByClassName('frog') 
         
