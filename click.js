@@ -4,9 +4,9 @@ btn.onclick = function() {
     console.log('hi') 
     
 const contentWrapper = document.getElementById('content-wraper') 
+    const arrGames = ['../|_/|', '/0w0|', '-???-']
     if (contentWrapper.style.display === 'none') {
         contentWrapper.style.display = 'block'
-        const arrGames = ['../|_/|', '/0w0|', '-???-'] 
 
 
 arrGames.forEach((elem) => { 
@@ -21,8 +21,15 @@ arrGames.forEach((elem) => {
     
     else {
 
-        const frogs = document.getElementsByClassName('frog') 
-        
+        const frogs = document.getElementsByClassName('frog')
+
+        //for (let i = 0; i < 3; i++) {
+         //   contentWrapper.removeChild(contentWrapper.lastChild)
+         //   console.log(i)
+         // }
+        //  console.log("i")
+
+
         console.log(frogs)
         contentWrapper.style.display = 'none'
 
