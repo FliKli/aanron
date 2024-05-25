@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="G.CSS">
-    <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="city.css">
     <meta charset="UTF-8">
     <title>The bot is a lover of walking</title>
 </head>
@@ -53,11 +53,22 @@
           <div id="content-wraper" style="max-height: 400px; max-lines: 50px; overflow: scroll;">
           <div class="city_search">
             <form id="c_form" role="search">
-              <input type="search" id="c_query" name="q" 
+              <input type="search" id="c_query, city_search" onkeyup="cityFunction()" name="q"
               placeholder="Поиск..."
               aria-label="Search through site content">
+              <ul id="citySee" style = "margin-bottom: -400px;">
+                <li><a href="#">москва</a></li>
+                <li><a href="#">ростов</a></li>
+              
+                <li><a href="#">киев</a></li>
+                <li><a href="#">волгаград</a></li>
+              
+                <li><a href="#">санкт-питербург</a></li>
+                <li><a href="#">мурманск</a></li>
+                <li><a href="#">краснодар</a></li>
+              </ul>
               <p id="nameList"></p>
-              <script type="text/javascript" src="search.js"></script>
+                <script type="text/javascript" src="search.js"></script>
               <button type="submit"></button>
             </form>
           </div>

@@ -14,21 +14,18 @@ arrGames.forEach((elem) => {
     const elemNew = document.createElement('div') 
     elemNew.classList.add('frog') 
     elemNew.textContent = elem 
-    contentWrapper.appendChild(elemNew) 
+    contentWrapper.appendChild(elemNew)
 })
 
     } 
     
     else {
 
-        const frogs = document.getElementsByClassName('frog')
+        const frogs = document.querySelectorAll('.frog')
 
-        //for (let i = 0; i < 3; i++) {
-         //   contentWrapper.removeChild(contentWrapper.lastChild)
-         //   console.log(i)
-         // }
-        //  console.log("i")
-
+        frogs.forEach(frog => {
+            frog.replaceWith();
+        });
 
         console.log(frogs)
         contentWrapper.style.display = 'none'
