@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="G.CSS">
     <link rel="stylesheet" href="search.css">
-    <link rel="stylesheet" href="city.css">
     <meta charset="UTF-8">
     <title>The bot is a lover of walking</title>
 </head>
@@ -12,6 +11,7 @@
     <div class="text">
       <div id="wrapper">
         <div id="header">
+          <div id="coin"></div>
           <p class="namer">TBIALOW</p>
           <p class="nomer"> The bot is a lover of walking... </p>
           <p class="borders" style="margin-left: -1px; margin-top: 85px;"></p>
@@ -23,11 +23,11 @@
         <h3 style="margin-left: 15px; margin-top: 10px;">Что хотите узнать?</h3>
         <h3 style="margin-left: 10px; margin-top: -10px;">Развлечение:</h3>
 
-        <button id="grop" class="btn" style="margin-left: 5px; margin-top: -20px;">Поиск город</button>
+        <button id="city" class="btn" style="margin-left: 5px; margin-top: -20px;">Поиск город</button>
         <img src="imges/cityskape-1024.webp"
             width="30" height="30" style="margin-left: 15px; margin-top: -8px;">
 
-        <button class="btn" style="margin-left: 5px; margin-top: 15px;">Парк</button>
+        <button id="playList" class="btn"  style="margin-left: 5px; margin-top: 15px;">Мини-игры</button>
         <img src="imges/png-clipart-state-park-recreation-national-park-park.png"
             width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
 
@@ -51,12 +51,11 @@
           <img src="imges/"
             width="30" height="30" style="margin-left: 15px; margin-top: -45px;">
           <div id="content-wraper" style="max-height: 400px; max-lines: 50px; overflow: scroll;">
-          <div class="city_search">
-            <form id="c_form" role="search">
-              <input type="search" id="c_query, city_search" onkeyup="cityFunction()" name="q"
+            <div>
+              <input type="text" id="cityInput" onkeyup="cityFunction()"
               placeholder="Поиск..."
               aria-label="Search through site content">
-              <ul id="citySee" style = "margin-bottom: -400px;">
+              <ul id="cityUL" style = "margin-bottom: -400px;">
                 <li><a href="#">москва</a></li>
                 <li><a href="#">ростов</a></li>
               
@@ -70,23 +69,24 @@
               <p id="nameList"></p>
                 <script type="text/javascript" src="search.js"></script>
               <button type="submit"></button>
-            </form>
+            </div>
           </div>
          </div>
-        </div>
 
-        <div id="str"></div>
+        <div id="str">
+          <div id="content-play"></div>
+        </div>
 
         <div class="clear"></div>
         
         <div id="footer">
-        <p class="fon"><strong>Т<br>/// </strong> </p>
+          
         </div>
 
       </div>  
     </div>
 
-    <script src="spliv.js"></script>
     <script src="click.js"></script>
+    <script src="play.js"></script>
   </body>
 </html>
