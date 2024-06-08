@@ -11,7 +11,7 @@
     <div class="text">
       <div id="wrapper">
         <div id="header">
-          <div id="coin"></div>
+          <div id="coin">0 coin</div>
           <p class="namer">TBIALOW</p>
           <p class="nomer"> The bot is a lover of walking... </p>
           <p class="borders" style="margin-left: -1px; margin-top: 85px;"></p>
@@ -39,7 +39,7 @@
         <img src=""
             width="30" height="30" style="margin-left: 15px; margin-top: -10px;">
 
-        <button class="btn" style="margin-left: 5px; margin-top: 15px;">Поговорить</button>
+        <button id="chatList" class="btn" style="margin-left: 5px; margin-top: 15px;">Поговорить</button>
         <img src="imges/media_multimedia_audio_video_music_-_2-1024.webp"
             width="30" height="30" style="margin-left: 15px; margin-top: -35px;">
 
@@ -50,7 +50,7 @@
           <h3 style="margin-left: 65px;">Список:</h3>
           <img src="imges/"
             width="30" height="30" style="margin-left: 15px; margin-top: -45px;">
-          <div id="content-wraper" style="max-height: 400px; max-lines: 50px; overflow: scroll;">
+          <div id="content-wraper" style="max-height: 400px; overflow: scroll;">
             <div>
               <input type="text" id="cityInput" onkeyup="cityFunction()"
               placeholder="Поиск..."
@@ -73,20 +73,40 @@
           </div>
          </div>
 
-        <div id="str">
-          <div id="content-play"></div>
-        </div>
+          <div id="str">
+            <div id="content-play"></div>
+              <div>
+                <textarea class="window" rows="10" cols="50">
+                hhhh
+                </textarea>
+              </div>
+              <div id="winList">
+              <button id="" class="windows" style="margin-right: 5px; margin-top: 15px;">1</button>
+              <button id="" class="windows" style="margin-right: 5px; margin-top: 15px;">2</button>
+              <button id="" class="windows">3</button>
+              <button id="" class="windows">4</button>
+              <button id="" class="windows">5</button>
+              <button id="" class="windows">6</button>
+            </div>
+          </div>
 
-        <div class="clear"></div>
         
-        <div id="footer">
+        
+            <div id="content-chat">
+              <button id="btnB" class="btn1">Click</button>
+                <form name="chatA">
+                  <textarea rows="7" cols="40" name="message"></textarea>
+                </form>
+              <div id="printBlock"></div>
+            </div>
           
-        </div>
+          <div class="clear"></div>
 
       </div>  
     </div>
 
     <script src="click.js"></script>
     <script src="play.js"></script>
+    <script src="chat.js"></script>
   </body>
 </html>
